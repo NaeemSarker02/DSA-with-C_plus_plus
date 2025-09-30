@@ -1,19 +1,21 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-// Function to print a name//
-// void printname(string nam){
-//     cout<<"my name is "<<nam<<endl;
-// }
+    // Function to print a name//
+    // void printname(string nam){
+    //     cout<<"my name is "<<nam<<endl;
+    // }
+
     // void sum(int a, int b){
     //     cout<<"Sum is: "<<a+b<<endl;
     // }
 
-    void dosomthing(string n){
-        cout<<n<<" is replaced by ";
-        n[0] = 'T';
-        cout<<n<<endl;
-    }
+    // void dosomthing(string n){
+    //     cout<<n<<" is replaced by ";
+    //     n[0] = 'T';
+    //     cout<<n<<endl;
+    // }
+
 int main(){
     // int day;
     // cin>>day;
@@ -80,9 +82,13 @@ int main(){
     // cout<<"Enter two numbers to find their sum: ";
     // cin>>a>>b;
     // sum(a, b);
-    string name ;
-    cin>>name;
-    dosomthing(name);
+
+    // string name ;
+    // cin>>name;
+    // dosomthing(name);
+
+    
+
     return 0;
 }
 

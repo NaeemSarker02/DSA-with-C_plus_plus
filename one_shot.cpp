@@ -5,10 +5,15 @@ using namespace std;
 // void printname(string nam){
 //     cout<<"my name is "<<nam<<endl;
 // }
-    void sum(int a, int b){
-        cout<<"Sum is: "<<a+b<<endl;
-    }
+    // void sum(int a, int b){
+    //     cout<<"Sum is: "<<a+b<<endl;
+    // }
 
+    void dosomthing(string n){
+        cout<<n<<" is replaced by ";
+        n[0] = 'T';
+        cout<<n<<endl;
+    }
 int main(){
     // int day;
     // cin>>day;
@@ -71,10 +76,13 @@ int main(){
     // printname(name);
     // printname(name2);
 
-    int a, b;
-    cout<<"Enter two numbers to find their sum: ";
-    cin>>a>>b;
-    sum(a, b);
+    // int a, b;
+    // cout<<"Enter two numbers to find their sum: ";
+    // cin>>a>>b;
+    // sum(a, b);
+    string name ;
+    cin>>name;
+    dosomthing(name);
     return 0;
 }
 

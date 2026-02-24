@@ -17,7 +17,7 @@ void pattern1(int n)
 {
     for (int i = 1; i <= n; i++)
     {
-        for (int j = 1; j <= i; j+2)
+        for (int j = 1; j <= i; j++)
         {
             cout << "* ";
         }
@@ -79,11 +79,11 @@ int main()
     cin >> n;
 
     // pattern(n);
-    // pattern1(n);
+    pattern1(n);
     // pattern2(n);
     // pattern3(n);
     // pattern4(n);
-    pattern5(n);
+    // pattern5(n);
 
     // for (int i = 1; i <= n; i++)
     // {

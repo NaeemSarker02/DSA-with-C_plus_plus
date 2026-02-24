@@ -79,9 +79,9 @@ int main()
     cin >> n;
 
     // pattern(n);
-    pattern1(n);
+    // pattern1(n);
     // pattern2(n);
-    // pattern3(n);
+    pattern3(n);
     // pattern4(n);
     // pattern5(n);
 

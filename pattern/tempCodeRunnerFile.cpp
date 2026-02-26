@@ -1,1 +1,1 @@
- pattern3(n);
+ pattern(n);
